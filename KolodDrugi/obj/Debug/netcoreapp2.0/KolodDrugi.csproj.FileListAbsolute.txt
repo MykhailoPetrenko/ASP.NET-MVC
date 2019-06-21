@@ -1,0 +1,11 @@
+C:\Users\misha\Desktop\Универ\4 семестр\APBD\cwiczenia\Zadania\KolodDrugi\KolodDrugi\bin\Debug\netcoreapp2.0\KolodDrugi.deps.json
+C:\Users\misha\Desktop\Универ\4 семестр\APBD\cwiczenia\Zadania\KolodDrugi\KolodDrugi\bin\Debug\netcoreapp2.0\KolodDrugi.runtimeconfig.json
+C:\Users\misha\Desktop\Универ\4 семестр\APBD\cwiczenia\Zadania\KolodDrugi\KolodDrugi\bin\Debug\netcoreapp2.0\KolodDrugi.runtimeconfig.dev.json
+C:\Users\misha\Desktop\Универ\4 семестр\APBD\cwiczenia\Zadania\KolodDrugi\KolodDrugi\bin\Debug\netcoreapp2.0\KolodDrugi.dll
+C:\Users\misha\Desktop\Универ\4 семестр\APBD\cwiczenia\Zadania\KolodDrugi\KolodDrugi\obj\Debug\netcoreapp2.0\KolodDrugi.csprojResolveAssemblyReference.cache
+C:\Users\misha\Desktop\Универ\4 семестр\APBD\cwiczenia\Zadania\KolodDrugi\KolodDrugi\obj\Debug\netcoreapp2.0\KolodDrugi.csproj.CoreCompileInputs.cache
+C:\Users\misha\Desktop\Универ\4 семестр\APBD\cwiczenia\Zadania\KolodDrugi\KolodDrugi\obj\Debug\netcoreapp2.0\KolodDrugi.AssemblyInfoInputs.cache
+C:\Users\misha\Desktop\Универ\4 семестр\APBD\cwiczenia\Zadania\KolodDrugi\KolodDrugi\obj\Debug\netcoreapp2.0\KolodDrugi.AssemblyInfo.cs
+C:\Users\misha\Desktop\Универ\4 семестр\APBD\cwiczenia\Zadania\KolodDrugi\KolodDrugi\bin\Debug\netcoreapp2.0\KolodDrugi.pdb
+C:\Users\misha\Desktop\Универ\4 семестр\APBD\cwiczenia\Zadania\KolodDrugi\KolodDrugi\obj\Debug\netcoreapp2.0\KolodDrugi.dll
+C:\Users\misha\Desktop\Универ\4 семестр\APBD\cwiczenia\Zadania\KolodDrugi\KolodDrugi\obj\Debug\netcoreapp2.0\KolodDrugi.pdb

@@ -1,0 +1,69 @@
+﻿@model Rent
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Lista Cars @ViewBag.p</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Description</th>
+            <th>Client</th>
+            <th>Date from</th>
+            <th>Date to</th>
+            <th>Car</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var r in (IEnumerable<Rent>)ViewBag.Rents)
+        {
+            <tr>
+                <td>@r.Description</td>
+                <td>@r.Client</td>
+                <td>@r.DateFrom.ToShortDateString()</td>
+                <td>@r.DateTo.ToShortDateString()</td>
+                <td>@r.Car.Model (@r.Car.RegisterNumber)</td>
+            </tr>
+
+        }
+    </tbody>
+</table>
+<h2>Rent a car</h2>
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <input class="form-control" asp-for="Description" />
+        <span class="text-warning" asp-validation-for="Description">Description is Required!</span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Client"></label>
+        <input class="form-control" asp-for="Client" />
+        <span class="text-warning" asp-validation-for="Client">Client is Required!</span>
+    </div>
+    <div class="form-group">
+        <label asp-for="DateFrom"></label>
+        <input class="form-control" type="date" asp-for="DateFrom" />
+        <span class="text-warning" asp-validation-for="DateFrom"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="DateTo"></label>
+        <input class="form-control" type="date" asp-for="DateTo" />
+        <span class="text-warning" asp-validation-for="DateTo"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="IdCar"></label>
+        <select asp-for="IdCar" class="form-control" asp-items="@(new SelectList(@ViewBag.Cars, "IdCar", "ModelRegist"))"></select>
+        <span class="text-warning" asp-validation-for="IdCar"></span>
+    </div>
+    <!--
+        <div class="form-group">
+            <label asp-for="IdCar"></label>
+            <input class="form-control" asp-for="IdCar" />
+            <span asp-validation-for="IdCar"></span>
+        </div>
+        -->
+
+    <input type="submit" value="Add" />
+</form>
+
